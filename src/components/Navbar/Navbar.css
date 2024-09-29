@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+    padding: 12px;
+    font-family: "Merriweather", serif;
+}
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-logo p{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 35px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    color: rgb(51, 48, 48);
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    background-color: red;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-login-cart button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    outline: none;
+    color: #538527;
+    background: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background-color: antiquewhite;
+}
+.nav-cart-count{
+    color:#fff;
+    background-color: red;
+    border-radius: 50%;
+    padding: 1px 3px;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -27px;
+    margin-left: -45px;
+}
