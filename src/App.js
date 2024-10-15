@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Shop from './pages/shop'
-import ShopCategory from './pages/shopCategory'
+import Shop from './pages/Shop'
+import ShopCategory from './pages/ShopCategory'
 
 export default function App() {
   return (
